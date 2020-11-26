@@ -143,55 +143,55 @@ const gameFlow = (() => {
 			cells[0].style.backgroundColor = '#ff8282';
 			cells[1].style.backgroundColor = '#ff8282';
 			cells[2].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 		} else if (moves.indexOf(4) !== -1 && moves.indexOf(5) !== -1 && moves.indexOf(6) !== -1) {
 			cells[3].style.backgroundColor = '#ff8282';
 			cells[4].style.backgroundColor = '#ff8282';
 			cells[5].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 		} else if (moves.indexOf(7) !== -1 && moves.indexOf(8) !== -1 && moves.indexOf(9) !== -1) {
 			cells[6].style.backgroundColor = '#ff8282';
 			cells[7].style.backgroundColor = '#ff8282';
 			cells[8].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 		} else if (moves.indexOf(1) !== -1 && moves.indexOf(4) !== -1 && moves.indexOf(7) !== -1) {
 			cells[0].style.backgroundColor = '#ff8282';
 			cells[3].style.backgroundColor = '#ff8282';
 			cells[6].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 		} else if (moves.indexOf(2) !== -1 && moves.indexOf(5) !== -1 && moves.indexOf(8) !== -1) {
 			cells[1].style.backgroundColor = '#ff8282';
 			cells[4].style.backgroundColor = '#ff8282';
 			cells[7].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 		} else if (moves.indexOf(3) !== -1 && moves.indexOf(6) !== -1 && moves.indexOf(9) !== -1) {
 			cells[2].style.backgroundColor = '#ff8282';
 			cells[5].style.backgroundColor = '#ff8282';
 			cells[8].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 		} else if (moves.indexOf(4) !== -1 && moves.indexOf(5) !== -1 && moves.indexOf(6) !== -1) {
 			cells[3].style.backgroundColor = '#ff8282';
 			cells[4].style.backgroundColor = '#ff8282';
 			cells[5].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 		} else if (moves.indexOf(1) !== -1 && moves.indexOf(5) !== -1 && moves.indexOf(9) !== -1) {
 			cells[0].style.backgroundColor = '#ff8282';
 			cells[4].style.backgroundColor = '#ff8282';
 			cells[8].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 		} else if (moves.indexOf(3) !== -1 && moves.indexOf(5) !== -1 && moves.indexOf(7) !== -1) {
 			cells[2].style.backgroundColor = '#ff8282';
 			cells[4].style.backgroundColor = '#ff8282';
 			cells[6].style.backgroundColor = '#ff8282';
-			gameBoard.message.textContent = player + ' winner';
+			gameBoard.message.textContent = player + ' переміг';
 			gameFinished();
 
 			//Tie
